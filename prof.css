@@ -231,3 +231,15 @@ body{
         width: 250px;
     }
 }
+
+@media screen and (max-width: 365px) {
+    .user-profile{
+        margin-left: 20px;
+    }
+    .table-reserve-profile{
+        margin-left: 30px;
+    }
+    .shop-user-profile{
+        margin-left: 30px;
+    }
+}
