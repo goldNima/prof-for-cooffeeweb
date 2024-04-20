@@ -97,3 +97,11 @@ const priceItemshop3 = localStorage.getItem("item3P")
 document.querySelector(".price-shop3").innerHTML = priceItemshop3;
 
 
+document.querySelector(".dlt-items").addEventListener("click" , (e)=>{
+    localStorage.removeItem("item1");
+    localStorage.removeItem("item2");
+    localStorage.removeItem("item3");
+    localStorage.removeItem("item1P");
+    localStorage.removeItem("item2P");
+    localStorage.removeItem("item3P");
+})
