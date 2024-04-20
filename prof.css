@@ -148,7 +148,11 @@ body{
     margin-top: 70px;
     margin-left: 50px;
 }
-
+.dolor-price{
+    margin-left: 5px ;
+    color: #fff;
+    font-size: larger;
+}
 @media screen {
     body{
         overflow-x: hidden;
