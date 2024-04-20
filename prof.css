@@ -221,14 +221,17 @@ body{
 
 @media screen and (max-width: 427px) {
     .user-profile{
-       width: 300px;
+        width: 300px ;
+        margin-left: 20px;
     }
 
     .table-reserve-profile{
-        width: 250px ;
+        width: 300px ;
+        margin-left: 20px;
     }
     .shop-user-profile{
-        width: 250px;
+        width: 300px ;
+        margin-left: 20px;
     }
 }
 
