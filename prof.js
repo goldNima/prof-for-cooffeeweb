@@ -76,13 +76,24 @@ const itemShop1 = localStorage.getItem("item1")
 
 document.querySelector("#item1").innerHTML = itemShop1;
 
+const priceItemshop1 = localStorage.getItem("item1P")
+
+document.querySelector(".price-shop").innerHTML = priceItemshop1;
+
 const itemShop2 = localStorage.getItem("item2")
 
 document.querySelector("#item2").innerHTML = itemShop2;
+
+const priceItemshop2 = localStorage.getItem("item2P")
+
+document.querySelector(".price-shop2").innerHTML = priceItemshop2;
 
 const itemShop3 = localStorage.getItem("item3")
 
 document.querySelector("#item3").innerHTML = itemShop3;
 
+const priceItemshop3 = localStorage.getItem("item3P")
+
+document.querySelector(".price-shop3").innerHTML = priceItemshop3;
 
 
