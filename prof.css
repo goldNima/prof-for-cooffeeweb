@@ -135,7 +135,7 @@ body{
 
 .total-price{
     margin-left: 50px;
-    margin-top: 70px;
+    margin-top: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fff;
     font-size: x-large;
@@ -145,13 +145,20 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fff;
     font-size: x-large;
-    margin-top: 70px;
+    margin-top: 30px;
     margin-left: 50px;
 }
 .dolor-price{
     margin-left: 5px ;
     color: #fff;
     font-size: larger;
+}
+.dlt-items{
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 40px;
+    cursor: pointer;
 }
 @media screen {
     body{
